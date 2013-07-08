@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Json Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Json Project for test jquery"/>
+    <meta name="keywords" content="jquery, json, javascript"/>
+    <meta name="author" content="Created by UNDEAD"/>
+
+    <script type="text/javascript" src="lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="lib/underscore.js"></script>
+    <script type="text/javascript" src="lib/backbone.js"></script>
+
+    <!--<script id="person-id" type="text/template">-->
+        <!--<strong><%= name %></strong> ( <%= age %> ) - <%= job %>-->
+    <!--</script>-->
+
+    <script type="text/javascript" src="js/helper.js"></script>
+    <script type="text/javascript" src="js/event.js"></script>
+
+
+</head>
+<h1>Список задач</h1>
+
+<form action="" id="addTask">
+    <input type="text" placeholder="Ваша новая задача">
+    <input type="submit" value="Добавить задачу">
+</form>
+
+<div class="tasks">
+    <script type="text/template" id="taskTemplate">
+        <span><%= title %></span>
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+    </script>
+</div>
+
+
+<div id="content">
+
+</div>
+<body>
+
+</body>
+
+</html>
